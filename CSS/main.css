@@ -1,0 +1,503 @@
+/* Style sheet for 37homepage project */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+ul.nav{
+  float:right;
+  }
+
+ul li{
+  display:inline;
+
+}
+
+ul.nav li a{
+  color: #369;
+  display:inline;
+  padding-left:10px;
+  text-decoration:none;
+}
+
+ul.nav li a.signin {
+  color:#18afe0;
+}
+/*company logo*/
+.logo {
+  display:block;
+  height:35px;
+  text-align:center;
+  /*border-top:-30px;*/
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.top-banner-A,
+h2.top-banner-A{
+font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+font-size: 48px;
+font-weight: 500;
+font-style: normal;
+line-height: 1.1em;
+letter-spacing: -1px;
+color: #232323;
+/*display:block;*/
+text-align:center;
+margin:0px 30px;
+}
+h3.top-banner-B {
+text-align:center;
+font-size
+}
+
+section{
+	margin: 30px auto;
+	width: 825px;
+	display: block;
+}
+
+.products a{
+	color:#369;
+    position: relative;
+    top: 40px;
+    left: 75px;
+    width: 160px;
+    padding: 15px 20px 5px;
+    float: left;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #EFEFEF;
+    padding: 20px 10px 10px;
+    text-decoration: none;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    background: -moz-linear-gradient(center top , #FFF, #EFEFEF) repeat scroll 0% 0% transparent;
+}
+.products h3 span {
+    text-decoration: underline;
+}
+section a h4{
+	color:#c00;
+	margin: 5px 0px 10px;
+	font-size: 14px;
+}
+/*logo*/
+header {
+    clear: both;
+    width: 829px;
+    height: 50px;
+    margin: 40px auto 20px;
+    padding: 6px 0px;
+    text-align: center;
+    font-family: "CrimsonSemiBold","Times New Roman",Georgia,serif;
+}
+/*centerbanner*/
+header h2 {
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 1em;
+    margin: 10px 0px 20px;
+    letter-spacing: -2px;
+    color: #232323;
+    clear: both;
+}
+
+
+a{
+	text-decoration: none;
+	color #369
+}
+
+.products {
+		text-align: center;
+		height: 288px;
+		padding bottom: 230px;
+}
+
+.products a{
+	margin: 5px 20px 5px;
+  padding: 20px 10px 10px;
+	/* top right bottom left */
+	left: 75px;
+	float: left;
+	text-align: center;
+	height: 200px;
+	padding-bottom:20px;
+	border: 1px solid color #e8e86
+}
+
+.products h3{
+	font-size: 21px;
+	color :#369;
+	font-weight: bold;
+	line-height: 1.5 em;
+	margin: 0px 0px 10px;
+}
+/*renders 3 grey asterisk*/
+hr{
+    background: url("../img/img-hr.png") no-repeat scroll 50% 50% #FFF;
+    clear: both;
+    border: 0px none;
+    color: transparent;
+    height: 12px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.meet a:link{
+   /* unvisited link */
+    background: url("../img/img-customers-bw.png") no-repeat;
+}
+
+/* visited link */
+.meet a:visited { 
+    background: url("../img/img-customers-color.png") no-repeat;
+}
+
+/* mouse over link */
+.meet a:hover {
+    background: url("../img/img-customers-color.png") no-repeat;
+
+}
+
+/* selected link */
+.meet a:active {
+    background: url("../img/img-customers-color.png") no-repeat;
+}
+
+.meet a {
+display: block;
+position:absolute;
+width: 200px;
+height: 100px;
+background: url('../img/img-customers.png') no-repeat 0 0;
+margin-left: -150px;
+margin-top:-100px;
+}
+
+.meet a p{
+font-size:12px;
+width:200px;
+height:115px;
+margin-top:100px;
+}
+.customers h2{
+font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+color: #232323;
+font-size: 48px;
+font-weight: 500;
+font-style: normal;
+line-height: 1.1em;
+letter-spacing: -1px;
+text-align: center;
+}
+
+
+.customers .globe{
+  float:right;
+  cursor: auto;
+display: inline;
+height: 200px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+width: 200px;
+}
+
+.customers p{
+  color: #666;
+    font-family: "CrimsonRoman","Times New Roman",Georgia,serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 0 0 1em;
+    text-align: left;
+}
+
+.our-policy{
+  display:block;
+  margin:0px 60px 10px;
+  margin-bottom:50px;
+  overflow:hidden;
+  width:900px;
+  height:500px;
+  text-align:center;
+}
+
+
+
+/*the numbered element*/
+.our-policy h3{
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    padding-left: 5px;
+    width:25px;
+    color: #CCC;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 20px 10px 10px;
+    float: left;
+    display:block;
+}
+/* red statements about policy*/
+.our-policy h4 {
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 16px;
+    margin: 5px 0px;
+    color: #C00;
+    text-align: left;
+}
+.our-policy p{
+margin: 0 0 0 12px;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+text-align: left;
+line-height: 1.4em;
+font-size: 12px;
+color: #222;
+}
+
+sup{
+  font-size:11px;
+}
+
+
+.left-column{
+display:block;
+width: 400px;
+height: 340px;
+text-align: center;
+float: left;
+line-height: 1.5em;
+line-height: 27px;
+padding-top: 10px;
+padding-right: 30px;
+padding-bottom: 10px;
+padding-left: 0px;
+margin-top: 0px;
+margin-right:10px;
+margin-bottom:0px;
+margin-left:0px;
+}
+
+.right-column{
+  display:inline-block;
+  width:400px;
+  height:340px;
+  text-align:center;
+  float:right;
+  line-height: 1.5em;
+  line-height: 27px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-left:0px;
+  margin-top:0px;
+  margin-right: 10px;
+  margin-left:-400px;
+}
+
+.our-book{
+  display:block;
+  margin:0px 60px 10px;
+  margin-bottom:50px;
+  text-align:center;
+}
+
+.text-n-images>h2{
+  /*position:relative;*/
+  background-color:white;
+  float:right;
+}
+
+/*.text-n-images h2{*/
+section h2{
+font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+font-color:red;
+font-size: 45px;
+font-weight: 500;
+font-style: normal;
+line-height: 1.1em;
+letter-spacing: -1px;
+text-align: left;
+/*margin:0px 20px; */
+}
+
+.arrow_right{
+  display:inline;
+  margin-left:750px;
+}
+ .crumpled_pages{
+  width:100px;
+  height:100px;
+ }
+/*image of the crumpled pages*/
+#cp,
+.crumpled_pages,
+.small_font_p{
+  display:inline;
+  margin-left:400px;*/
+  float:right;
+} 
+.crumpled_pages{
+  margin-left:400px;
+}
+.small_font_p{
+display:block;
+font-size:12px;
+width:100px;
+height:15px;
+padding:0px 20px 20px 400px;
+/*margin:top,right,bottom,left*/
+color:black;
+text-decoration: none;
+}
+/*image of book*/
+.book-cover a{
+  display:inline;
+  float: left;
+  margin right:10px;
+  width:150px;
+  height:200px;
+  margin-top:-150px;
+}
+
+.text{
+  width:500px;
+  height:300px;
+  margin-left:300px;
+  margin-top:-30px;
+}
+ 
+.quote{
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+.phrase{
+/*display:inline;*/
+text-align: center;
+margin-top:20px;
+color: #888;
+font-weight: normal;
+font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+font-style: italic;
+font-size: 22px;
+}
+
+.credit{
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+font-size: 15px;
+color: black;
+}
+
+#small_row.all_offerings{
+  display:block;
+  width:100%;
+  height:100%;
+  margin: 15px 40px;
+  text-align: center;
+}
+
+.all_offerings #bc, 
+.all_offerings #hr,
+.all_offerings #cf{
+  display:inline;
+  position:relative;
+  display:inline-block;
+  width:200px;
+  height:180px;
+  text-align: center;
+  background-color: #FFFFfF;
+  text-align: center;
+  float:left;
+  margin-bottom:15px;
+  /*font-size:40px;*/
+}
+
+top-banner-A>h2{
+font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+font-size: 48px;
+font-weight: 500;
+font-style: normal;
+line-height: 1.1em;
+letter-spacing: -1px;
+color: #232323;
+margin-bottom:15px;
+}
+.all_offering>h3{
+   display: inline;
+  color:#c00;
+  font-size: 12px;
+  width:20%;
+  height:20%;
+}
+.all_offering>h4{
+   display: inline;
+  color:#c00;
+  font-size: 12px;
+  width:80%;
+  height:80%;
+}
+.all_offering>p{
+  display: inline;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+font-size: 10px;
+color: black;
+width:80%;
+height:80%;
+}
+.clear_fix{
+  clear:both;
+}
+#books_n_services{
+  text-align: center;
+}
+
+table{
+  display:block;
+  border-spacing: 10px;
+  clear:both;
+}
+
+th{
+  text-align: left;
+}
+th td{
+  padding:15px;
+}
+
+
+.font_red #books_n_services th{
+font-family: CrimsonRoman,Times New Roman,
+ Georgia, serif;
+margin:0px 40px;
+color:red;
+font-size:12px;
+}
+.tbl_font_bold_blk#books_n_services th{
+font-style: "Times New Roman" bold;
+
+}
+.tbl_font_small_blk #books_n_services tr{
+font-family:Gerogian serif;
+font-size: 10px;
+}
+#font_small{
+  font-style: 10px;
+  text-decoration: none;
+}
+#last{
+  display:block;
+  text-decoration: none
+  margin:0px;
+  padding:0;
+  text-align: center;
+}
